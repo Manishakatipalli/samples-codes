@@ -6,16 +6,17 @@ Welcome! This repository contains several small programs written in Python to pr
 
 ## 🗂️ Program Files
 
-### 1.  Paper Game 
-- **File:** `paper_game_conversion.py`
+### 1. rock paper scissor game
+- **File:** `paper.py`
 - **Description:**  rock paper scissor game
+- 
 ### 2. Number Guessing Game
 - **File:** `number_guessing_game.py`
 - **Description:** Interactive game where the user tries to guess a random number.
 
 ### 3. CURRENCY CONVERSIONS
-- **File:** `.py`
-- **Description:** 
+- **File:** `currency.py`
+- **Description:** CURRENCY CONVERSIONS
 
 
 
