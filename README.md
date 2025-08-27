@@ -1,30 +1,29 @@
-# samples-codes
-#  rock paper scissor game
-import random
-while True:
-    computer=random.choice(('r', 'p', 's'))
-    print("Computer chose:", computer)
-    me=input("enter Rock as r, Paper as p, Scissors as s:").lower()
-    print("you chose:",me)
-    if computer==me:
-        print("Its a tie")
-    elif(computer == "r" and me == "p") or \
-        (computer == "p" and me == "s") or \
-        (computer == "s" and me == "r"):
-        print("you win")
-    else:
-        print("you lose")
-        n=(input(" do you want to continue y/n"))
-        if n=='y':
-            print("Computer chose:", computer)
-        else:
-            print("Thanks for playing!")
-            break
-# output 
-/* Computer chose: s
-you chose: s
-Its a tie
-Computer chose: r
-you chose: s
-you lose
-Thanks for playing!*/
+# Sample Programs
+
+Welcome! This repository contains several small programs written in Python to practice coding and problem-solving.
+
+---
+
+## 🗂️ Program Files
+
+### 1.  Paper Game 
+- **File:** `paper_game_conversion.py`
+- **Description:**  paper-based game scores into a digital format for analysis.
+
+### 2. Number Guessing Game
+- **File:** `number_guessing_game.py`
+- **Description:** Interactive game where the user tries to guess a random number.
+
+### 3. CURRENCY CONVERSIONS
+- **File:** `.py`
+- **Description:** 
+
+
+
+---
+
+## ⚡ How to Run
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/sample-programs.git
+
