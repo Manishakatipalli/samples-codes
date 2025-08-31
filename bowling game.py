@@ -1,0 +1,6 @@
+p=input("enter player number:")
+name=input("enter name of the player:")
+print(name :"",p)
+gender=(input("enter gender of the player:"))
+print(gender :"",p)
+hand=(input("enter right hand/ lef hand of the player:"))
